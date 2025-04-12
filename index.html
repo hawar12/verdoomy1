@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>صانع الصور بالذكاء الاصطناعي</title>
+  <style>
+    body { font-family: Arial; padding: 20px; text-align: center; }
+    input, button { padding: 10px; font-size: 16px; }
+    img { margin-top: 20px; max-width: 100%; height: auto; }
+  </style>
+</head>
+<body>
+  <h1>إنشاء صورة من نص</h1>
+  <input type="text" id="promptInput" placeholder="أدخل وصف الصورة">
+  <button onclick="generateImage()">إنشاء صورة</button>
+  <div id="loader" style="display: none;">جاري التحميل...</div>
+  <div id="imageContainer"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
